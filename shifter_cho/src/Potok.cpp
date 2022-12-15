@@ -46,6 +46,7 @@ void printInfo(time_t* work_time_start) {
 void shift_up(double* inputData, double* outputData, const int count, const int freqshift);
 void shift_down(double* inputData, double* outputData, const int count, const int freqshift);
 int loadsignalbuffer(FILE* file, double* buffer, const int count);
+void writesignal(const int count, double* signal, FILE* file);
 //объявление функций из main чтобы новый cpp файл их видел
 void secmainfile() {
 	signal(SIGINT, stopSignalTestDirectSound);	//устанавливает обработчик сигнала SignalHandler на обработку SIGIN (ctrl+C)
@@ -85,7 +86,7 @@ void secmainfile() {
 void secmain() {
 	signal(SIGINT, stopSignalTestDirectSound);	//устанавливает обработчик сигнала SignalHandler на обработку SIGIN (ctrl+C)
 	ATOMIC_QUEUE_TYPE cur_sample;	//текущий байт звуковой информации (необязательно что это семпл, мб часть семпла)
-	int dalay_before_start = 3; //задержка между записью звука и воспроизведением
+	int dalay_before_start = 0; //задержка между записью звука и воспроизведением
 	recorder.start();	//запуск записи
 	player.start();		//запуск плеера
 	double signal[N]; // тут будет входной сигнал
@@ -94,7 +95,7 @@ void secmain() {
 	time_t work_time_start = time(NULL);	//хранит время начала работы DS
 
 	insert_delay_in_atomic(dalay_before_start); // вставляем задержку
-
+	FILE* fileout = fopen(".\\math_model\\output.s16le", "wb"); // открыл поток для  записи основного потока звука чтобы записать длинный звуковой файл и потом его обрабатывать
 	while (testDirectSound_stop_flag == 0) {//Пока не получен сигнал ctrl+c
 		if (sndMicBuffer.Size() > N) // если в очереди микрофона семплов больше чем 2048 то начинаем воровать
 		{
@@ -102,12 +103,16 @@ void secmain() {
 				sndMicBuffer.Pull(cur_sample); // берем из очереди(сначала) семпл
 				signal[i] = (double)cur_sample; // пихаем семпл в входной массив даблов
 			}
+			writesignal(N, signal, fileout); // добавил запись основного потока звука чтобы записать длинный звуковой файл и потом его обрабатывать
 			// смещение
 			//shift_up(signal, output, N, 500);
 			shift_down(signal, output, N, -300);
 			// смещение закончено
 			for (int i = 0; i < N; i++)
+			{
 				sndDinBuffer.Push((short)output[i]);//закидываем семлп на динамик
+			}
+				
 			
 		}
 		if (clock() - timer > CLOCKS_PER_SEC * 1) {	//вывод инфы раз в Х сек
@@ -116,7 +121,7 @@ void secmain() {
 		}
 		Sleep(1);
 	}
-
+	fclose(fileout);
 	recorder.stop();
 	player.stop();
 

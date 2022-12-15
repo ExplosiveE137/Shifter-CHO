@@ -1,6 +1,6 @@
 ﻿  Potok.cpp
 C:\Users\ediks\Desktop\123\shifter_cho\src\Potok.cpp(29,29): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\ediks\Desktop\123\shifter_cho\src\Potok.cpp(52,20): warning C4101: cur_sample: неиспользованная локальная переменная
+C:\Users\ediks\Desktop\123\shifter_cho\src\Potok.cpp(53,20): warning C4101: cur_sample: неиспользованная локальная переменная
 C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: AtomicQueue<char>::AtomicQueue(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
 C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(8): message : см. объявление "AtomicQueue<char>::AtomicQueue"
 C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: bool AtomicQueue<char>::Push(const T &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
