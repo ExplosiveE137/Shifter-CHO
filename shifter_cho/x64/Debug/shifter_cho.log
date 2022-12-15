@@ -1,0 +1,148 @@
+﻿  Potok.cpp
+C:\Users\ediks\Desktop\123\shifter_cho\src\Potok.cpp(29,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ediks\Desktop\123\shifter_cho\src\Potok.cpp(52,20): warning C4101: cur_sample: неиспользованная локальная переменная
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: AtomicQueue<char>::AtomicQueue(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(8): message : см. объявление "AtomicQueue<char>::AtomicQueue"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: bool AtomicQueue<char>::Push(const T &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+          with
+          [
+              T=char
+          ]
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(9): message : см. объявление "AtomicQueue<char>::Push"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: bool AtomicQueue<char>::Pull(T &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+          with
+          [
+              T=char
+          ]
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(10): message : см. объявление "AtomicQueue<char>::Pull"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: unsigned int AtomicQueue<char>::Size(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(11): message : см. объявление "AtomicQueue<char>::Size"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: unsigned int AtomicQueue<char>::getMaxLength(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(13): message : см. объявление "AtomicQueue<char>::getMaxLength"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: void AtomicQueue<char>::reset(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(14): message : см. объявление "AtomicQueue<char>::reset"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: AtomicQueue<short>::AtomicQueue(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(8): message : см. объявление "AtomicQueue<short>::AtomicQueue"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: bool AtomicQueue<short>::Push(const T &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+          with
+          [
+              T=short
+          ]
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(9): message : см. объявление "AtomicQueue<short>::Push"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: bool AtomicQueue<short>::Pull(T &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+          with
+          [
+              T=short
+          ]
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(10): message : см. объявление "AtomicQueue<short>::Pull"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: unsigned int AtomicQueue<short>::Size(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(11): message : см. объявление "AtomicQueue<short>::Size"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: unsigned int AtomicQueue<short>::getMaxLength(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(13): message : см. объявление "AtomicQueue<short>::getMaxLength"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: void AtomicQueue<short>::reset(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(14): message : см. объявление "AtomicQueue<short>::reset"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: AtomicQueue<byte>::AtomicQueue(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(8): message : см. объявление "AtomicQueue<byte>::AtomicQueue"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: bool AtomicQueue<byte>::Push(const T &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+          with
+          [
+              T=byte
+          ]
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(9): message : см. объявление "AtomicQueue<byte>::Push"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: bool AtomicQueue<byte>::Pull(T &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+          with
+          [
+              T=byte
+          ]
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(10): message : см. объявление "AtomicQueue<byte>::Pull"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: unsigned int AtomicQueue<byte>::Size(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(11): message : см. объявление "AtomicQueue<byte>::Size"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: unsigned int AtomicQueue<byte>::getMaxLength(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(13): message : см. объявление "AtomicQueue<byte>::getMaxLength"
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(21): warning C4661: void AtomicQueue<byte>::reset(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\AtomicQueue.hpp(14): message : см. объявление "AtomicQueue<byte>::reset"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(42): warning C4661: Audio_player<char>::Audio_player(AtomicQueue<char> *,const int,const int): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(14): message : см. объявление "Audio_player<char>::Audio_player"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(42): warning C4661: Audio_player<char>::~Audio_player(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(15): message : см. объявление "Audio_player<char>::~Audio_player"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(42): warning C4661: void Audio_player<char>::start(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(17): message : см. объявление "Audio_player<char>::start"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(42): warning C4661: void Audio_player<char>::stop(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(18): message : см. объявление "Audio_player<char>::stop"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(42): warning C4661: int Audio_player<char>::getSampleRate(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(20): message : см. объявление "Audio_player<char>::getSampleRate"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(42): warning C4661: int Audio_player<char>::getBitsPerSample(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(21): message : см. объявление "Audio_player<char>::getBitsPerSample"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(42): warning C4661: void Audio_player<char>::run(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(26): message : см. объявление "Audio_player<char>::run"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(43): warning C4661: Audio_player<short>::Audio_player(AtomicQueue<short> *,const int,const int): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(14): message : см. объявление "Audio_player<short>::Audio_player"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(43): warning C4661: Audio_player<short>::~Audio_player(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(15): message : см. объявление "Audio_player<short>::~Audio_player"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(43): warning C4661: void Audio_player<short>::start(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(17): message : см. объявление "Audio_player<short>::start"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(43): warning C4661: void Audio_player<short>::stop(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(18): message : см. объявление "Audio_player<short>::stop"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(43): warning C4661: int Audio_player<short>::getSampleRate(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(20): message : см. объявление "Audio_player<short>::getSampleRate"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(43): warning C4661: int Audio_player<short>::getBitsPerSample(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(21): message : см. объявление "Audio_player<short>::getBitsPerSample"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(43): warning C4661: void Audio_player<short>::run(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(26): message : см. объявление "Audio_player<short>::run"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(44): warning C4661: Audio_player<byte>::Audio_player(AtomicQueue<byte> *,const int,const int): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(14): message : см. объявление "Audio_player<byte>::Audio_player"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(44): warning C4661: Audio_player<byte>::~Audio_player(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(15): message : см. объявление "Audio_player<byte>::~Audio_player"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(44): warning C4661: void Audio_player<byte>::start(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(17): message : см. объявление "Audio_player<byte>::start"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(44): warning C4661: void Audio_player<byte>::stop(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(18): message : см. объявление "Audio_player<byte>::stop"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(44): warning C4661: int Audio_player<byte>::getSampleRate(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(20): message : см. объявление "Audio_player<byte>::getSampleRate"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(44): warning C4661: int Audio_player<byte>::getBitsPerSample(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(21): message : см. объявление "Audio_player<byte>::getBitsPerSample"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(44): warning C4661: void Audio_player<byte>::run(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_player_v2.hpp(26): message : см. объявление "Audio_player<byte>::run"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(43): warning C4661: Audio_recorder<char>::Audio_recorder(AtomicQueue<char> *,const int,const int): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(16): message : см. объявление "Audio_recorder<char>::Audio_recorder"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(43): warning C4661: Audio_recorder<char>::~Audio_recorder(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(17): message : см. объявление "Audio_recorder<char>::~Audio_recorder"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(43): warning C4661: void Audio_recorder<char>::start(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(21): message : см. объявление "Audio_recorder<char>::start"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(43): warning C4661: void Audio_recorder<char>::stop(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(22): message : см. объявление "Audio_recorder<char>::stop"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(43): warning C4661: int Audio_recorder<char>::getSampleRate(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(24): message : см. объявление "Audio_recorder<char>::getSampleRate"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(43): warning C4661: int Audio_recorder<char>::getBitsPerSample(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(25): message : см. объявление "Audio_recorder<char>::getBitsPerSample"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(43): warning C4661: void Audio_recorder<char>::run(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(27): message : см. объявление "Audio_recorder<char>::run"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(44): warning C4661: Audio_recorder<short>::Audio_recorder(AtomicQueue<short> *,const int,const int): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(16): message : см. объявление "Audio_recorder<short>::Audio_recorder"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(44): warning C4661: Audio_recorder<short>::~Audio_recorder(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(17): message : см. объявление "Audio_recorder<short>::~Audio_recorder"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(44): warning C4661: void Audio_recorder<short>::start(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(21): message : см. объявление "Audio_recorder<short>::start"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(44): warning C4661: void Audio_recorder<short>::stop(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(22): message : см. объявление "Audio_recorder<short>::stop"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(44): warning C4661: int Audio_recorder<short>::getSampleRate(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(24): message : см. объявление "Audio_recorder<short>::getSampleRate"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(44): warning C4661: int Audio_recorder<short>::getBitsPerSample(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(25): message : см. объявление "Audio_recorder<short>::getBitsPerSample"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(44): warning C4661: void Audio_recorder<short>::run(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(27): message : см. объявление "Audio_recorder<short>::run"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(45): warning C4661: Audio_recorder<byte>::Audio_recorder(AtomicQueue<byte> *,const int,const int): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(16): message : см. объявление "Audio_recorder<byte>::Audio_recorder"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(45): warning C4661: Audio_recorder<byte>::~Audio_recorder(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(17): message : см. объявление "Audio_recorder<byte>::~Audio_recorder"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(45): warning C4661: void Audio_recorder<byte>::start(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(21): message : см. объявление "Audio_recorder<byte>::start"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(45): warning C4661: void Audio_recorder<byte>::stop(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(22): message : см. объявление "Audio_recorder<byte>::stop"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(45): warning C4661: int Audio_recorder<byte>::getSampleRate(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(24): message : см. объявление "Audio_recorder<byte>::getSampleRate"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(45): warning C4661: int Audio_recorder<byte>::getBitsPerSample(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(25): message : см. объявление "Audio_recorder<byte>::getBitsPerSample"
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(45): warning C4661: void Audio_recorder<byte>::run(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+C:\Users\ediks\Desktop\123\shifter_cho\src\Audio_recorder_v2.hpp(27): message : см. объявление "Audio_recorder<byte>::run"
+  shifter_cho.vcxproj -> C:\Users\ediks\Desktop\123\shifter_cho\x64\Debug\shifter_cho.exe
